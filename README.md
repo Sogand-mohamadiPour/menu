@@ -1,4 +1,5 @@
 # project is not ready yet
+# full version with no backnd on [pizza menu](https://github.com/Sogand-mohamadiPour/pizza-menu)
 # 🍕 Pizza Menu – Full-Stack Project
 
 A full-stack pizza menu web app built with **React (frontend)** by me and **Django REST Framework (backend)** by my friend.  
