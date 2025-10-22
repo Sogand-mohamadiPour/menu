@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# 🍕 Pizza Menu – Full-Stack Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A full-stack pizza menu web app built with **React (frontend)** by me and **Django REST Framework (backend)** by my friend.  
+The project lets users browse delicious pizzas and interact with a dynamic menu powered by real API data.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Overview
+- **Frontend:** React + Fetch + useEffect  
+- **Backend:** Django REST Framework (DRF)  
+- **Data Flow:** The React app fetches pizza data from the DRF API  
+- **Goal:** Build a simple and clean pizza menu with real-time backend connection  
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🧩 Features
+- 🍕 Dynamic pizza list fetched from API  
+- 🔍 Interactive UI built with React hooks  
+- ⚙️ Django REST backend providing structured JSON data  
+- 🌐 Connected frontend and backend for a full-stack experience  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🧠 Tech Stack
+| Layer | Technology |
+|-------|-------------|
+| Frontend | React, JavaScript, Fetch API |
+| Backend | Django REST Framework, Python |
+| Styling | CSS / Tailwind (optional) |
+| Version Control | Git + GitHub |
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🌍 Deployment
+- **Frontend:** Deployed on Vercel / Netlify  
+- **Backend:** Deployed on Render / Railway  
+- Connected through public API endpoints instead of local URLs.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🤝 Collaboration
+- **Frontend Developer:** [Your Name](https://github.com/your-username)  
+- **Backend Developer:** [Friend’s Name](https://github.com/friend-username)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+We worked separately on GitHub and connected our projects through API integration.
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📦 Notes
+This repo focuses on the **frontend** logic and structure.  
+The backend repository is available separately, providing the API endpoints for pizza data.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## ❤️ Credits
+Built with teamwork, code, and a love for pizza.
