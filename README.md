@@ -27,21 +27,26 @@ The project lets users browse delicious pizzas and interact with a dynamic menu 
 |-------|-------------|
 | Frontend | React, JavaScript, Fetch API |
 | Backend | Django REST Framework, Python |
-| Styling | CSS / Tailwind (optional) |
+| Styling | CSS |
 | Version Control | Git + GitHub |
 
 ---
 
+## 💻FrontEnd deployed on vercel
+ - [visit site](menu-three-bice.vercel.app)
+  
+---
+
 ## 🌍 Deployment
-- **Frontend:** Deployed on Vercel / Netlify  
-- **Backend:** Deployed on Render / Railway  
+- **Frontend:** Deployed on Vercel   
+- **Backend:** Deployed on Render   
 - Connected through public API endpoints instead of local URLs.
 
 ---
 
 ## 🤝 Collaboration
-- **Frontend Developer:** [Your Name](https://github.com/your-username)  
-- **Backend Developer:** [Friend’s Name](https://github.com/friend-username)
+- **Frontend Developer:** [Sogand](https://github.com/Sogand-mohamadiPou)  
+- **Backend Developer:** [Pooyan](https://github.com/pooyansaeedinia)
 
 We worked separately on GitHub and connected our projects through API integration.
 
