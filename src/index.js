@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import { API_URL } from './config';
 
 
 
@@ -15,7 +16,7 @@ function App() {
     async function fetchPizzas() {
       try {
         setLoading(true);
-        const response = await fetch("http://127.0.0.1:8000/");
+        const response = await fetch(`${API_URL}/pizzas/`);
         if (!response.ok) {
           throw new Error('Failed to fetch pizzas');
         }
@@ -93,7 +94,7 @@ function Menu({ pizzas, loading, error }) {
 function Pizza({ pizzaObj }) {
   // Check if pizza is sold out (quantity is 0)
   const isSoldOut = pizzaObj.quantity === 0;
-  
+
   return (
     <li className={`pizza ${isSoldOut ? 'sold-out' : ''}`}>
       <img src={pizzaObj.image} alt={pizzaObj.name} />
