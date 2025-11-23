@@ -1,8 +1,7 @@
-# project is not ready yet
+# 🍕 Pizza Menu – Full-Stack version
 # full version with no backnd on [pizza menu](https://github.com/Sogand-mohamadiPour/pizza-menu)
-# 🍕 Pizza Menu – Full-Stack Project
 
-A full-stack pizza menu web app built with **React (frontend)** by me and **Django REST Framework (backend)** by my friend.  
+A full-stack pizza menu web app built with **React (frontend)** by [Sogand (me)](https://github.com/Sogand-mohamadiPour) and **Django REST Framework (backend)** by [Pooyan](https://github.com/pooyansaeedinia).
 The project lets users browse delicious pizzas and interact with a dynamic menu powered by real API data.
 
 ---
@@ -33,8 +32,8 @@ The project lets users browse delicious pizzas and interact with a dynamic menu 
 
 ---
 
-## 💻FrontEnd deployed on vercel
- - [visit site](menu-three-bice.vercel.app)
+## 💻Demo deployed on Vercel
+ - [visit site](https://menu-three-bice.vercel.app/)
   
 ---
 
@@ -54,7 +53,7 @@ We worked separately on GitHub and connected our projects through API integratio
 ---
 
 ## 📦 Notes
-This repo focuses on the **frontend** logic and structure.  
+This repo is a practice project for connecting Render and Vercel for the first time.
 The backend repository is available separately, providing the API endpoints for pizza data.
 
 ---
