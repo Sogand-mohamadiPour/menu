@@ -15,14 +15,23 @@ function App() {
     async function fetchPizzas() {
       try {
         setLoading(true);
+        setError(null);
+        console.log('Fetching pizzas from API...');
         const response = await fetch("https://pizza-menu-q7xq.onrender.com/");
+        console.log('Response status:', response.status, response.statusText);
+        
         if (!response.ok) {
-          throw new Error('Failed to fetch pizzas');
+          throw new Error(`Failed to fetch pizzas: ${response.status} ${response.statusText}`);
         }
+        
         const data = await response.json();
+        console.log('Pizzas fetched successfully:', data);
         setPizzas(data);
       } catch (err) {
-        setError(err.message);
+        console.error('Error fetching pizzas:', err);
+        // Provide more detailed error message
+        const errorMessage = err.message || 'Network error. Please check your connection and try again.';
+        setError(errorMessage);
       } finally {
         setLoading(false);
       }
