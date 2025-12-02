@@ -1,5 +1,4 @@
 # 🍕 Pizza Menu – Full-Stack version
-# full version with no backnd on [pizza menu](https://github.com/Sogand-mohamadiPour/pizza-menu)
 
 A full-stack pizza menu web app built with **React (frontend)** by [Sogand (me)](https://github.com/Sogand-mohamadiPour) and **Django REST Framework (backend)** by [Pooyan](https://github.com/pooyansaeedinia).
 The project lets users browse delicious pizzas and interact with a dynamic menu powered by real API data.
